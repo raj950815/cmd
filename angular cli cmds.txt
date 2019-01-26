@@ -1,0 +1,151 @@
+npm i -g  @angular/cli
+
+npm list -g @angular/cli --depth=0
+
+ng -v
+
+ng new my-app
+
+ng new  my-app --dry-run
+
+rm -rf my-app/
+
+ng new my-app --prefix acme--skip-install --ng4
+
+ng new my-app --skip-tests --prefix acme--skip-install --ng4
+
+ng --help
+
+ng new my-app --prefix acme--skip-install --style scss
+
+ng new my-app --routing --prefix acme--skip-install --style scss
+
+ng serve -o
+
+ng set default.styleExt scss
+
+ng set default.styleExt scss -g
+
+lintin cmd use in app
+
+ng lint
+
+ng lint --help
+
+ng lint --fomat stylish
+
+ng lint --fix
+
+ng generate component component-name
+
+ng generate component component-name --inline-template --inline-style
+
+ng g c component-name
+
+ng g c component-name -it -is
+
+ng g c component-name --flat --prefix my --spec false
+
+ng g c orders -ve Emulated -cd OnPush
+
+ng g d search-box -d
+
+ng g d search-box
+
+ng g d search-box --flat false -d
+
+ng g s sales-data
+
+ng g s sales-data -m app.module
+
+ng g cl models/customer
+
+ng g i models/person
+
+ng g e models/gender
+
+ng g p init-cops -d
+
+ng g p shared/init-cops -d
+
+ng g m login -d
+
+ng g m login --spec true -d
+
+ng g c login -d
+
+ng g c login -m login/login.module -d
+
+ng g m admin --routing
+
+ng new angular-rounting --ng4 --rounting -d
+
+ng g guard user
+
+ng built --help
+
+ng serve --help
+
+ng serve -p 1234 -o -rl
+
+ng serve --prod -o
+
+npm i @angular/material --save
+
+//ssr 
+ng add @ng-toolkit/universal
+
+npm run build:prod
+
+ng test
+
+ng test -sr
+
+ng test -w false
+
+ng test -cc
+
+ng e2e --help
+
+//windows
+netstat -ano | findstr :portnumber
+tskill processnumber
+
+//linux
+sudo lsof -t -i tcp:4200
+lsof -i:4200
+kill -9 1317
+
+npm test
+
+ng lint
+
+ng lint --fix
+
+npm i -g angular-cli-ghpages
+
+ng build
+
+ng build --prod
+
+ng build --base-href /APM/
+ng build --bh /APM/
+
+ng build --prod --base-href https://designcourse.github.io/my-cool-proj
+ngh
+
+cordova create <projectName>
+
+cordova platforms add android/ios
+
+ln -s ../dist www
+
+cordova build android/ios
+
+cordova run android/ios
+
+//for windows
+electron-packager . --platform=win32
+
+//for mac
+electron-packager . --platform=darwin

@@ -1,0 +1,36 @@
+tns create my-angular-app --ng
+
+tns create
+
+tns platform
+
+tns install
+
+tns run
+
+tns debug
+
+tns livesync
+
+tns help
+
+tns create app-name --template tns-template-blank
+
+tns create app-name --template tns-template-master-detail
+
+tns create app-name --template tns-template-tab-navigation
+
+tns create app-name --template typescript
+
+tns create app-name --template
+
+tns install typescript
+
+tns run ios --emulator
+
+tns run android --emulator
+
+tns debug ios --emulator
+
+tns debug android --emulator
+

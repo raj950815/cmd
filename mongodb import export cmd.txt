@@ -1,0 +1,19 @@
+//linux
+sudo systemctl start mongod
+sudo systemctl enable mongod
+mongo
+//win
+mongod
+mongo
+mongodb export cmd
+show dbs
+use dbName
+show collections
+db.collectionsName.find()
+db.collectionsName.remove({})
+
+mongoexport --db meanDb --collection countries --out countries.json
+mongoexport -d meanDb -c countries -o c.json
+
+mongodb import cmd
+mongoimport -d meanDb -c countries c.json
