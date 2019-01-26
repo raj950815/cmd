@@ -97,6 +97,10 @@ ng add @ng-toolkit/universal
 
 npm run build:prod
 
+npm run server
+
+ng g c home --moule = app.module.ts
+
 ng test
 
 ng test -sr
